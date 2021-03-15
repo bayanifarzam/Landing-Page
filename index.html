@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="assets/font/fontawesome/css/all.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+  <div class="alert alert-success d-none" role="alert">
+    A simple success alert—check it out!
+  </div>
+  <div class="alert alert-danger d-none" role="alert">
+    A simple danger alert—check it out!
+  </div>
+
+<!-- Navigation Started -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="assets/img/logo.png" alt="" width="auto" height="50"> GLOBAL  <sup><small>&reg;</small></sup>
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About Us
+          </a>
+
+          <ul class="dropdown-menu">
+            <li class="dropdown-item">Team</li>
+            <li class="dropdown-item">Advisors</li>
+            <li><hr class="dropdown-divider"></li>
+          <li class="dropdown-item">Location</li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link disabled">Donate</a>
+        </li>
+
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- Nav End -->
+
+<!-- Slider Start -->
+
+<div id="carouselExampleControls" class="carousel slide carousel-dark  carousel-fade d-none d-md-block" data-bs-ride="carousel"  data-bs-interval="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" >
+      <img src="assets/img/slider/slider-1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="text-dark h2">First slide label</h5>
+        <p class="btn-danger p-3 ">Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item " >
+      <img src="assets/img/slider/slider-11.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item" >
+      <img src="assets/img/slider/slider-12.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" >
+      <img src="assets/img/slider/slider-13.jpg" class="d-block w-100" alt="...">
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+
+
+  </div>
+</div>
+<!-- SLider ENds -->
+
+
+
+
+<!-- Message -->
+<div class="container mt-5 ">
+  <i class="fa fa-quote-left fa-3x"></i>
+  <div class="alert alert-light ml-15" role="alert">
+    <h4 class="alert-heading text-info" >Happy <span class="badge rounded-pill bg-warning text-dark">Nawroz</span></h4>
+    <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+    <hr>
+    <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+  </div>
+  <span  class="text-right" style="float: right;" id="right"><i class="fa fa-quote-right fa-3x "></i></span>
+</div>
+<!-- Message Ends -->
+
+<br><br><br>
+
+
+<!-- Our Services -->
+<div id="services" class="mt-5 section-top-m bg-light p-5">
+
+  <h3 class="h3 text-center">Our Services</h3>
+
+  <div class="card-group text-center">
+    <div class="card m-2 b-none text-light bg-dark" >
+      <i class="fa fa-tools fa-3x mt-5 mb-4"></i>
+      <div class="card-body">
+        <h5 class="card-title">Repairing</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+    <div class="card m-2  text-light bg-dark">
+      <i class="fa fa-hand-sparkles fa-3x mt-5 mb-4"></i>
+      <div class="card-body">
+        <h5 class="card-title">Cleaning</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+    <div class="card m-2  text-light bg-dark">
+      <i class="fa fa-shower fa-3x mt-5 mb-4"></i>
+      <div class="card-body">
+        <h5 class="card-title">Wash</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/jQuery.min.js"></script>
+</body>
+</html>
