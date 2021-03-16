@@ -10737,4 +10737,38 @@ textarea.form-control-lg {
 .bg-asmaan{
   background-color: black  !important;
 }
+
+.bg-port{
+  height: 250px;
+  background-image: url('../img/bgcover.jpg');
+}
+.sm-port{
+  height: 250px;
+  background-image: url('../img/bimage.jpg');
+}
+
+
+.port-el1{
+  height: 250px;
+  background-image: url('../img/p3.jpg');
+  background-size: cover;
+  
+}
+
+.port-el2{
+  height: 250px;
+  background-image: url('../img/p4.jpg');
+  background-size: cover;
+
+}
+
+.port-el3{
+  height: 250px;
+  background-image: url('../img/p3.jpg');
+  background-size: cover;
+
+}
+
+
+
 /*  */
