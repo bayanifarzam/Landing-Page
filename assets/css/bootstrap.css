@@ -10771,4 +10771,35 @@ textarea.form-control-lg {
 
 
 
+.bg-purple{
+  background-color: purple !important;
+  height: fit-content;
+  width:fit-content;
+}
+
+
+
+
+.img-rounded{
+  border-radius: 50%;
+  height:100px;
+  width: auto;
+}
+
+
+.thr{
+  width: 3em !important;
+  margin: 20px auto;
+  outline-style: solid;
+  color: #ffffff;
+  
+}
+
+.text-bababa{
+  color: #bababa;
+}
+
+.pr-40{
+  padding-right: 40px;
+}
 /*  */
