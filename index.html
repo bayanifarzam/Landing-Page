@@ -29,8 +29,8 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: auto !important; margin-right: 0 !important;">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
@@ -52,10 +52,10 @@
         </li>
 
       </ul>
-      <form class="d-flex">
+      <!-- <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit"><i class="fa fa-search"></i></button>
-      </form>
+      </form> -->
     </div>
   </div>
 </nav>
@@ -202,40 +202,109 @@
 
 <!-- Testimonial -->
 <div id="testimonial" class="mt-5 section-top-m bg-light p-5 text-dark text-center">
-
+<!-- Testimonial Head -->
   <h3 class="h2">We Believe on Truth!</h3>
   <small >Here is the proof</small>
   <hr class=" w-50" style="margin-left: auto; margin-right: auto;">
-  <div class="container mt-5 bg-purple text-light pt-5 pb-4 w-50">
-    <div class="row ">
-      <div class="col-md-4">
-            <img src="assets/img/users/1.png" class="img img-thumbnail img-fluid img-rounded" alt="">
-            <hr class="thr">
-            <h5 class="text-uppercase">Mehdi Shafae</h5>
-            <h6 class="text-bababa">Web Designer</h6>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-twitter"></i>
-      </div>
-      <div class="col-md-8 pr-40">
-        <p class="text-bababa text-start">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, repellat! Nulla iusto facilis, Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-<br>
-<br>
-          Praesentium voluptates iusto voluptatum harum quae incidunt, voluptatibus nam facere nulla debitis quia omnis, nemo vitae, blanditiis consectetur magni perferendis sit nostrum?
-        </p>
+<!-- Head End -->
 
-       
+<div id="testimonialSlider" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <!-- testimonial item -->
+      <div class="container mt-5 bg-purple text-light pt-5 pb-4 w-50">
+        <div class="row ">
+          <div class="col-md-4">
+                <img src="assets/img/users/1.png" class="img img-thumbnail img-fluid img-rounded" alt="">
+                <hr class="thr">
+                <h5 class="text-uppercase">Mehdi Shafae</h5>
+                <h6 class="text-bababa">Web Designer</h6>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+          </div>
+          <div class="col-md-8 pr-40">
+            <p class="text-bababa text-start">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, repellat! Nulla iusto facilis, Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    <br>
+    <br>
+              Praesentium voluptates iusto voluptatum harum quae incidunt, voluptatibus nam facere nulla debitis quia omnis, nemo vitae, blanditiis consectetur magni perferendis sit nostrum?
+            </p>
+    
+           
+          </div>
+        </div>
+      </div>
+      <!-- ends item -->
+    </div>
+    <div class="carousel-item">
+      <div class="container mt-5 bg-dark text-light pt-5 pb-4 w-50">
+        <div class="row ">
+          <div class="col-md-4">
+                <img src="assets/img/users/1540006192.png" class="img img-thumbnail img-fluid img-rounded" alt="">
+                <hr class="thr">
+                <h5 class="text-uppercase">Gul Pari</h5>
+                <h6 class="text-bababa">Web Designer</h6>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+          </div>
+          <div class="col-md-8 pr-40">
+            <p class="text-bababa text-start">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, repellat! Nulla iusto facilis, Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    <br>
+    <br>
+              Praesentium voluptates iusto voluptatum harum quae incidunt, voluptatibus nam facere nulla debitis quia omnis, nemo vitae, blanditiis consectetur magni perferendis sit nostrum?
+            </p>
+    
+           
+          </div>
+        </div>
       </div>
     </div>
+
   </div>
-
-
 </div>
+</div>
+<!-- Ends testimonial -->
 
 
 
 
+
+
+<div id="contact" class="mt-5  text-center">
+  <!-- Contact Head -->
+  <h3 class="h2">We Believe on Truth!</h3>
+  <small >Here is the proof</small>
+<!-- Head End -->
+  <div class="container-fluid contact p-5 text-light mt-5">
+        <form class="mt-5 w-50 "  style="margin-left: auto; margin-right: auto;">
+          <div class="row mb-3">
+            <label for="name" class="col-sm-3 col-form-label">Full Name <b class="text-danger">*</b></label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="name" >
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="email" class="col-sm-3 col-form-label">Email <b class="text-danger">*</b></label>
+            <div class="col-sm-9">
+              <input type="email" class="form-control" id="email">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="msg" class="col-sm-3 col-form-label">Msg <b class="text-danger">*</b></label>
+            <div class="col-sm-9">
+              <textarea class="form-control" id="msg" rows="3"></textarea>
+            </div>
+          </div>
+
+
+          <button type="submit" class="btn btn-primary align-right">Sign in</button>
+        </form>
+
+  </div>
+</div>
 
 
 

@@ -10802,4 +10802,14 @@ textarea.form-control-lg {
 .pr-40{
   padding-right: 40px;
 }
+
+.contact{
+  background-image: url('../img/contact-back.jpg');
+  height: fit-content;
+  background-size: cover;
+}
+
+.align-right{
+  float:right !important;
+}
 /*  */
