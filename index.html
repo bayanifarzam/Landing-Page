@@ -21,7 +21,7 @@
   </div>
 
 <!-- Navigation Started -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-purple w-100">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
       <img src="assets/img/logo.png" alt="" width="auto" height="50"> GLOBAL  <sup><small>&reg;</small></sup>
@@ -162,8 +162,8 @@
 
 
 
-<!-- Our Services -->
-<div id="portfolio" class="mt-5 section-top-m bg-dark p-5 text-light text-center">
+<!-- Our Portfolio -->
+<div id="portfolio" class=" section-top-m bg-dark p-5 text-light text-center">
 
   <h3 class="h2">Portfolio</h3>
   <small >We have done the best projects</small>
@@ -201,9 +201,9 @@
 
 
 <!-- Testimonial -->
-<div id="testimonial" class="mt-5 section-top-m bg-light p-5 text-dark text-center">
+<div id="testimonial" class=" section-top-m bg-light p-5 text-dark text-center">
 <!-- Testimonial Head -->
-  <h3 class="h2">We Believe on Truth!</h3>
+  <h3 class="h2">We Believe in Truth!</h3>
   <small >Here is the proof</small>
   <hr class=" w-50" style="margin-left: auto; margin-right: auto;">
 <!-- Head End -->
@@ -219,9 +219,12 @@
                 <hr class="thr">
                 <h5 class="text-uppercase">Mehdi Shafae</h5>
                 <h6 class="text-bababa">Web Designer</h6>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-twitter"></i>
+                <a href="https://www.instagram.com"  target="_blank" class="text-white"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com"  target="_blank" class="text-white"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.twitter.com"  target="_blank" class="text-white"><i class="fab fa-twitter"></i></a>
+                <a href="callto:03492603384" class="text-white"><i class="fa  fa-phone"></i></a>
+                <a href="mailto:bayanifarzam@gmail.com" class="text-white"><i class="fa  fa-envelope"></i></a>
+
           </div>
           <div class="col-md-8 pr-40">
             <p class="text-bababa text-start">
@@ -271,12 +274,66 @@
 
 
 
+<!-- Blog Section -->
+<section id="blog" class=" bg-dark p-5 text-center">
+  <!-- Blog Head -->
+  <h3 class="h2 text-white">Our New Articles</h3>
+  <small class="text-white" >Read to be updated</small>
+  <hr class=" w-50 bg-white" style="margin-left: auto; margin-right: auto;">
+<!-- Head End -->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img src="assets/img/p3.jpg" alt="" class="card-img-top">
+          <div class="card-body">
+            <h4>Article Title One</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, blanditiis.</p>
+          </div>
+          <div class="card-footer btn">
+            <button class="btn">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="assets/img/p4.jpg" alt="" class="card-img-top">
+          <div class="card-body">
+            <h4>Article Title Two</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, blanditiis.</p>
+          </div>
+          <div class="card-footer">
+            <button class="btn">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="assets/img/bimage.jpg" alt="" class="card-img-top">
+          <div class="card-body">
+            <h4>Article Title Three</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, blanditiis.</p>
+          </div>
+          <div class="card-footer">
+            <button class="btn">Read More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<br>
+  <a class="btn text-white align-right " href="blog.html"> View All <i class="fa fa-angle-right fa-lg"></i></a>
+  <br>
+</section>
+<!--  -->
 
 
+
+<!-- Contact section -->
 <div id="contact" class="mt-5  text-center">
   <!-- Contact Head -->
-  <h3 class="h2">We Believe on Truth!</h3>
-  <small >Here is the proof</small>
+  <h3 class="h2">Get in Touch!</h3>
+  <small >Email us through below form</small>
 <!-- Head End -->
   <div class="container-fluid contact p-5 text-light mt-5">
         <form class="mt-5 w-50 "  style="margin-left: auto; margin-right: auto;">
@@ -293,7 +350,13 @@
             </div>
           </div>
           <div class="row mb-3">
-            <label for="msg" class="col-sm-3 col-form-label">Msg <b class="text-danger">*</b></label>
+            <label for="number" class="col-sm-3 col-form-label">Number <b class="text-danger">*</b></label>
+            <div class="col-sm-9">
+              <input type="number" class="form-control" minlength="11" maxlength="11" id="number">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="msg" class="col-sm-3 col-form-label">Message <b class="text-danger">*</b></label>
             <div class="col-sm-9">
               <textarea class="form-control" id="msg" rows="3"></textarea>
             </div>

@@ -10812,4 +10812,14 @@ textarea.form-control-lg {
 .align-right{
   float:right !important;
 }
+
+/* padding-10 */
+.p-10{
+  padding-top: 10px !important ;
+  padding-bottom: 10px !important ;
+  padding-left: 5px !important ;
+  padding-right: 5px !important ;
+
+}
+
 /*  */
